@@ -1,4 +1,4 @@
-# [My Personal Home on the Internet 🏡](https://www.tansawit.me/)
+# [My Personal Website](https://www.tansawit.me/)
 
 The website is statically generated with [Hugo](https://github.com/gohugoio/hugo). It uses a variant of the [hello-friend-ng](https://github.com/gohugoio/hugoThemes) theme customized by me.
 
