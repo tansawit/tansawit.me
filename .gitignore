@@ -5,9 +5,22 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 firebase-debug.log*
+.gitmodules
 
 # Firebase cache
 .firebase/
+.firebaserc
+firebase.json
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
 
 # Firebase config
 
@@ -63,3 +76,7 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+public/
+archetypes/
+resources/
