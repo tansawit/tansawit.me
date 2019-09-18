@@ -121,9 +121,14 @@ disableHugoGeneratorInject = false
     name       = "About"
     url        = "about/"
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+    identifier = "projects"
+    name       = "Projects"
+    url        = "projects/"
+  [[menu.main]]
+    name = "Wiki"
+    weight = 0
+    identifier = "wiki"
+    url = "http://wiki.tansawit.me"
   [[menu.main]]
     identifier = "resume"
     name       = "Resume"
