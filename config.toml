@@ -6,7 +6,7 @@ DefaultContentLanguage = "en"
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+PygmentsStyle = "nord"
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
@@ -43,16 +43,6 @@ disableHugoGeneratorInject = false
 [blackfriday]
   hrefTargetBlank = true
 
-[taxonomies]
-  tag      = "tags"
-  category = ""
-
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
   # Metadata mostly used in document's head
   description = "Nice theme for homepages and blogs"
   keywords = ""
@@ -65,11 +55,11 @@ disableHugoGeneratorInject = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
+  customCSS = ["css/styles.css"]
   customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .content.
+  justifyContent = true  # Set "text-align: justify" to .content.
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
@@ -77,23 +67,26 @@ disableHugoGeneratorInject = false
   defaultTheme = "light"
   themeColor = "#252627"
 
+  [taxonomies]
+    tag      = "tags"
+    category = "categories"
+
   [params.logo]
     logoText     = "tansawit"
     logoHomeLink = "/"
 
   # Social icons
-
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/tansawit"
 
   [[params.social]]
-    name = "instagram"
-    url  = "https://www.instagram.com/tansawit"
-
-  [[params.social]]
     name = "github"
     url  = "https://github.com/tansawit"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/tansawit"
 
   [[params.social]]
     name = "twitter"
@@ -124,6 +117,10 @@ disableHugoGeneratorInject = false
     identifier = "projects"
     name       = "Projects"
     url        = "projects/"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "posts/"
   [[menu.main]]
     name = "Wiki"
     weight = 0
