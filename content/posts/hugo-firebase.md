@@ -7,14 +7,12 @@ toc: true
 images:
 tags:
   - hugo
-  - firebase
+  - tutorial
+  - beginner
 categories:
   - webdev
   - tutorial
 ---
-
-h-instagram
-
 
 ## Introduction
 
