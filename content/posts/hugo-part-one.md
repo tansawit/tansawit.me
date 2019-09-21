@@ -1,6 +1,6 @@
 ---
-title: "Building a Website with Hugo (Part 1: Setup and Installation)
-"
+title: 'Building a Website with Hugo (Part 1: Setup and Installation)'
+author: 'Sawit Trisirisatayawong'
 date: 2019-09-18T21:41:50+07:00
 draft: false
 toc: true
