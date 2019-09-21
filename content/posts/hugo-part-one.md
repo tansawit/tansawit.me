@@ -13,7 +13,8 @@ categories:
   - webdev
   - tutorial
 ---
-
+![Person Using MacBook](/images/person-using-macbook.jpg)
+<center>*Photo by Glenn Carstens-Peters on Unsplash*</center>
 ## Introduction
 
 Ever wanted to create a website but don't have enough time to learn all the tools necessary to build, maintain, and optimize one? Or wish making website pages is more like writing a blog? Then Hugo might be what you're looking for. It brings all the benefits of a static site generator - 100% Flexibility, Security, Speed and is used by many companies such as [1Password](https://1password.com), [Kubernetes](https://kubernetes.io), and [the Government of Virginia](https://www.virginia.gov)
