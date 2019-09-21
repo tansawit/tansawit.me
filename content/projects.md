@@ -6,6 +6,6 @@ draft: false
 
 My projects to date include:
 
-## Other things
+## Python Libraries
 
-- [cardvalidate](https://github.com/tansawit/cardvalidate) - A Python package to check credit card issuer and validate card number and CVV using Luhn's algorithm and RegEx
+- [cardvalidate](https://github.com/tansawit/cardvalidate) - A Python package to check credit card issuer and validate card number and CVV using Luhn's algorithm and RegEx. Available on [PyPI](https://pypi.org/project/cardvalidate/)
