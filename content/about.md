@@ -10,7 +10,7 @@ draft: false
 
 - Computer Science graduate from the [University of Michigan](https://www.umich.edu). Go Blue! 💙💛 
 
-- Currently building chatbots and (hopefully) useful [Python packages](https://github.com/tansawit/cardvalidate).
+- Currently building chatbots and (hopefully) useful [Python libraries](https://github.com/tansawit/cardvalidate).
 
 - In the process of sharing what I know on my [wiki](https://wiki.tansawit.me), this blog, and on [Medium](https://www.medium.com/@tansawit).
 
