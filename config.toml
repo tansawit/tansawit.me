@@ -52,11 +52,11 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Djordje Atlialp"
+  description = "Homepage and blog by Sawit Trisirisatayawong"
   keywords = "homepage, blog, science, computer, development, programming, projects"
   images = [""]
 
-  homeSubtitle = "Computer Scientist. Aspiring Data Scientist. @tansawit on most places"
+  homeSubtitle = "Data Scientist. Chatbot Builder. @tansawit on most places"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
