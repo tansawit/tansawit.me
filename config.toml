@@ -1,142 +1,48 @@
 baseURL = "https://tansawit.me"
-title   = "Sawit Trisirisatayawong"
-
-DefaultContentLanguage = "en"
-
+languageCode = "en-us"
 theme = "hello-friend"
-
-
-
-PygmentsCodeFences = true
-PygmentsStyle = "nord"
-
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-
-googleAnalytics = "UA-148434389-1"
-# disqusShortname = ""
-
-archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
-
-buildDrafts  = false
-buildFuture  = false
-buildExpored = false
-canonifyURLs = true
-
-enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
-enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
-disableHugoGeneratorInject = false
-
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
-
-  [author]
-  name = "Sawit Trisirisatayawong"
-
-[blackfriday]
-  hrefTargetBlank = true
+paginate = 5
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  description = "Homepage and blog by Djordje Atlialp"
-  keywords = "homepage, blog, science, computer, development, programming, projects"
-  images = [""]
-
-  homeSubtitle = "Computer Scientist. Aspiring Data Scientist. @tansawit on most places"
-
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = ""
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
-  customJS  = []
-
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = true  # Set "text-align: justify" to .content.
-
-  # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # Default theme "light" or "dark"
-  defaultTheme = "light"
-  themeColor = "#252627"
-
-  [taxonomies]
-    tag      = "tags"
-    category = "categories"
-
-  [params.logo]
-    logoText     = "tansawit"
-    logoHomeLink = "/"
-
-  # Social icons
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/tansawit"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/tansawit"
-
-  [[params.social]]
-    name = "instagram"
-    url  = "https://www.instagram.com/tansawit"
-
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/tansawit"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:sawit.tr@gmail.com"
-
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = ""
+  # "light" or "dark"
+  defaultTheme = "dark"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+  # Show reading time in minutes for posts
+  showReadingTime = false
 
 [languages]
   [languages.en]
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    weight     = 1
-    name       = "Home"
-    url        = "/"
-  [[menu.main]]
-    identifier = "about"
-    weight     = 2
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
-    identifier = "projects"
-    weight     = 3
-    name       = "Projects"
-    url        = "projects/"
-  [[menu.main]]
-    identifier = "blog"
-    weight     = 4
-    name       = "Blog"
-    url        = "posts/"
-  [[menu.main]]
-    name       = "Wiki"
-    weight     = 5
-    identifier = "wiki"
-    url = "http://wiki.tansawit.me"
-  [[menu.main]]
-    identifier = "resume"
-    weight     = 0
-    name       = "Resume"
-    url        = "sawit-trisirisatayawong-resume.pdf"
+    title = "Hello Friend"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoText = "hello friend"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
