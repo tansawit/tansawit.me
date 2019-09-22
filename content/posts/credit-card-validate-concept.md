@@ -2,8 +2,6 @@
 title: "How to Validate Credit Card Numbers using Luhn's Algorithm"
 date: 2019-09-21T15:26:23+07:00
 draft: false
-toc: true
-images:
 tags:
   - regex
   - algorithms
