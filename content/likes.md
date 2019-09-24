@@ -1,7 +1,7 @@
 ---
 title: "Likes"
 date: 2019-09-24T18:04:11+07:00
-draft: true
+draft: false
 ---
 
 ## Music
