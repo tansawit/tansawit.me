@@ -136,7 +136,12 @@ disableHugoGeneratorInject = false
     identifier = "wiki"
     url = "http://wiki.tansawit.me"
   [[menu.main]]
+    name       = "Likes"
+    weight     = 6
+    identifier = "likes"
+    url        = "likes/"
+  [[menu.main]]
+    name       = "Resume"
     identifier = "resume"
     weight     = 0
-    name       = "Resume"
     url        = "sawit-trisirisatayawong-resume.pdf"
