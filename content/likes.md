@@ -20,7 +20,7 @@ Was really crazy about it in high school and first 2 years of college. I was pro
 
 This most likely really started when I found [Nikita Voloboev](https://nikitavoloboev.xyz/) and his approach towards automating his setup and workflow. The thought of achieving this you do consistently in as little steps as possible appeals to me and what steps I have taken towards that goal thus far has been really satisfying.
 
-## Cool Software/Apps/Tools
+## Cool Software/Tools
 
 Here are a few of them:
 
