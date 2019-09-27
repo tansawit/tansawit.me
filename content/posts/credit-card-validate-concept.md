@@ -61,7 +61,7 @@ Summing all of the digits in the last row together we get 70, which ends in a ze
 
 ## Algorithm Limitations
 
-While Luhn's algorithm will detect any single-digit error, as well as almost all transpositions of adjacent digits, it cannot detect the transposition of the sequence (first-valid-character)(last-valid-character) to (last-valid-character)(first-valid-character) or vice versa. More specifically for our 0-9 digit set, it will not detect transpoisition of the two-digit pair '09' to '90' or vice versa. The reason and proof behind this weakness is quite mathematically involved but can be found [here](https://www.academia.edu/19957955/Transposition_Error_Detection_in_Luhn_s_Algorithm)
+While Luhn's algorithm will detect any single-digit error, as well as almost all transpositions of adjacent digits, it cannot detect the transposition of the sequence "(*first-valid-character*)(*last-valid-character*)" to "(*last-valid-character*)(*first-valid-character*)" or vice versa. More specifically for our 0-9 digit set, it will not detect transpoisition of the two-digit pair '*09*' to '*90*' or vice versa. The reason and proof behind this weakness is quite mathematically involved but can be found [here](https://www.academia.edu/19957955/Transposition_Error_Detection_in_Luhn_s_Algorithm)
 
 ## Concluding
 
