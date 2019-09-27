@@ -59,6 +59,10 @@ For example: Assume our card number is 4417 1234 5678 9113
 ![Example of Luhn's Algorithm](/images/luhns-algorithm-example.png)
 Summing all of the digits in the last row together we get 70, which ends in a zero and thus our card is valid!
 
+## Algorithm Limitations
+
+While Luhn's algorithm will detect any single-digit error, as well as almost all transpositions of adjacent digits, it cannot detect the transposition of the sequence "<first-valid-character><last-valid-character> to <last-valid-character><first-valid-character>" or vice versa. More specifically for our 0-9 character set, it will not detect transpoisition of the two-digit pair '09' to '90' or vice versa. The reason and proof behind this weakness is quite mathematically involved but can be found [here](https://www.academia.edu/19957955/Transposition_Error_Detection_in_Luhn_s_Algorithm)
+
 ## Concluding
 
 Now that we understand the general process of how to validate cards and identify who the issuer is, we can automate the process using a simple script. For those who are interested in how to write one, I be posting a short tutorial using Python in the coming weeks.  
