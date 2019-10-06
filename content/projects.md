@@ -14,6 +14,11 @@ As part of Dr Tippawan Wanwiwake's research at the Geo-Informatics and Space Tec
 
 A text classification program that modelled rap lyrics using various algorithms including Decision Trees, Multinomial Naive Bayes, and Vector Space Model. It then allows users to enter in their own lyrics or words and outputs the artist with the closest matching lyrics features.
 
+## Data Notebooks
+
+Some of the data visualization/analysis projects I did using various open datasets:
+- [Simpsons Guest Stars](https://github.com/tansawit/data-visualization/blob/master/simpsons-guest/simpons_star.ipynb) - Python Jupyter Notebook how to process and analyze rfordatascience' tidytuesday the Simpsons Guest Stars Dataset
+
 ## Python Libraries
 
 - [cardvalidate](https://github.com/tansawit/cardvalidate) - A Python package to check credit card issuer and validate card number and CVV using Luhn's algorithm and RegEx. Available on [PyPI](https://pypi.org/project/cardvalidate/)
