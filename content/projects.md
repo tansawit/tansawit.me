@@ -27,4 +27,3 @@ Some of the data visualization/analysis projects I did using various open datase
 ## My macOS Workflow
 
 I share my [macOS](https://github.com/tansawit/my-mac-setup) personal setup that includes all the applications and tools that I use. Along with that is my [dotfiles](https://github.com/tansawit/dotfiles) containing the configuration files for my terminal and editors.
-
