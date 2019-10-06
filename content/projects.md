@@ -17,6 +17,7 @@ A text classification program that modelled rap lyrics using various algorithms 
 ## Data Notebooks
 
 Some of the data visualization/analysis projects I did using various open datasets:
+
 - [Simpsons Guest Stars](https://github.com/tansawit/data-visualization/blob/master/simpsons-guest/simpons_star.ipynb) - Python Jupyter Notebook how to process and analyze rfordatascience' tidytuesday the Simpsons Guest Stars Dataset
 
 ## Python Libraries
