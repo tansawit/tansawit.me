@@ -12,7 +12,13 @@ As part of Dr Tippawan Wanwiwake's research at the Geo-Informatics and Space Tec
 
 ## Rapper Lyrics Matching Model
 
-A text classification program that modelled rap lyrics using various algorithms including Decision Trees, Multinomial Naive Bayes, and Vector Space Model. It then allows users to enter in their own lyrics or words and outputs the artist with the closest matching lyrics features.
+Done as the final project for the University of Michigan's EECS486 (Introduction to Information Retrieval) class.
+
+The [project](https://github.com/tansawit/rap-artist-classifier) examines the effectiveness of various classification models in matching rap lyrics to the correct artists.
+
+The accompanying [web application](https://github.com/tansawit/rap-match) allows users to input their own lyrics string, choose the classification model to use, and outputs the name of the artist with the closest lyrics features.
+
+
 
 ## Data Notebooks
 
