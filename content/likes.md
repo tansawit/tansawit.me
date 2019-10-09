@@ -24,15 +24,19 @@ This most likely really started when I found [Nikita Voloboev](https://nikitavol
 
 Here are a few of them:
 
-- Alfred - Mac Spotlight boosted.
+- [Alfred](https://www.alfredapp.com/) - Mac Spotlight boosted.
 
-- 2Do - Love the smart filtering capabilities.
+- [2Do](https://www.2doapp.com/) - Love the smart filtering capabilities.
 
-- PyCharm - Amazing code navigation, refactoring, optimization.
+- [Vim](https://www.vim.org/)/[NeoVim](https://neovim.io/) - Just started using it but love the idea of being able to use just my keyboard to navigate files/codes etc.
 
-- MindNode - Awesome mindmapping app.
+- [Notion](https://notion.so/) - Also a new addition. Trying to use it to store all the things related to my productive side (i.e. meeting notes, project timelines, repo status etc.).
+
+- [PyCharm](https://www.jetbrains.com/pycharm/) - Amazing code navigation, refactoring, optimization.
+
+- [MindNode](https://mindnode.com/) - Awesome mindmapping app.
   
-- RamboxPro - Helps to slightly improve incurable Chrome tab situation. Messenger, Slack, Telegram, Discord and so many other web apps all in one place.
+- [Biscuit](https://eatbiscuit.com/) - Helps (slightly) improve the incurable Chrome tab situation. Messenger, Slack, Telegram, Discord and other web apps all in one place.
 
 Here's the [full list](https://github.com/tansawit/my-mac-setup) of the apps I use for those interested.
 
@@ -44,10 +48,13 @@ Some of the quotes that I love. Gathered from books, talks, articles.
 
 Most of these came from [Darius Forous](https://dariusforoux.com/). I found him on [Medium](https://medium.com/@dariusforoux) but recently found the articles on [his website](https://dariusforoux.com/blog/). Needless to say, both are incredible.
 
-- The problem with pursuing happiness is that we’re constantly moving the goalposts for how we expect to feel.
-- If you live below your potential, give up, and never reach for anything better, you will always be miserable.
-- But time moves in one direction, and unhappy moments pass.
-- So instead of chasing happiness, commit to making your world better, more whole.
-- The problem with pursuing happiness is that we’re constantly moving the goalposts for how we expect to feel.
-- I believe that happiness is merely a byproduct of usefulness.
-  
+- "The problem with pursuing happiness is that we’re constantly moving the goalposts for how we expect to feel."
+- "If you live below your potential, give up, and never reach for anything better, you will always be miserable."
+- "But time moves in one direction, and unhappy moments pass."
+- "So instead of chasing happiness, commit to making your world better, more whole."
+- "The problem with pursuing happiness is that we’re constantly moving the goalposts for how we expect to feel."
+- "I believe that happiness is merely a byproduct of usefulness."
+ 
+### Tech
+
+- "Technology is an absolute necessity to advance human imagination." - Will Smith in [ interview with MKBHD ](https://www.youtube.com/watch?v=O6NiridP0Oo)
