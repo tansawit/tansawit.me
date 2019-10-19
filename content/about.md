@@ -6,14 +6,16 @@ draft: false
 
 ## Sawit Trisirisatayawong
 
-- Software Engineer based in Bangkok, Thailand.
+A recent University of Michigan graduate and now based in Bangkok, I develop chatbots and customer analytics tools for local businesses to integrate into social media channels to help them acquire customers, engage and retain those customers, and better understand their customer base.
 
-- Computer Science graduate from the [University of Michigan](https://www.umich.edu). Go Blue! 💙💛 
+I also occasionally consult to small and early/seed-stage startups, helping them refine their ideas and product implementations, develop their business models, and improve their understanding of their markets.
 
-- Currently building chatbots and (hopefully) useful [Python libraries](https://github.com/tansawit/cardvalidate).
+In my spare time I like to analyse and visualize [interesting datasets](/projects), watch movies, TV shows, and anime, read books, listen to music and podcasts, and take photos.
 
-- In the process of sharing what I know on here, my [wiki](https://wiki.tansawit.me), and on [Medium](https://www.medium.com/@tansawit).
+If you want to know more about me and what I like, you can see what I like [here](/likes) or [ask me anything](https://github.com/tansawit/am)
 
-- Occaonally share thoughts and things on [Twitter](https://twitter.com/tansawit)
+Other things I'm doing:
 
-- Trying to get into photography. You can see my attempts on my [Instagram](https://www.instagram.com/tansawit)
+- Writing articles on [my blog](/posts) and on [Medium](https://medium.com/@tansawit)
+- Sharing what I know and things that have influenced me on my [wiki](https://notes.tansawit.me)
+- Posting photos I took on [Instagram](https://instagram.com/tansawit)
