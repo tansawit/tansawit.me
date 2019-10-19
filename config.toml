@@ -43,7 +43,7 @@ disableHugoGeneratorInject = false
   name = "Sawit Trisirisatayawong"
 
 [blackfriday]
-  hrefTargetBlank = true
+  hrefTargetBlank = false
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -131,10 +131,10 @@ disableHugoGeneratorInject = false
     name       = "Blog"
     url        = "posts/"
   [[menu.main]]
-    name       = "Wiki"
+    identifier = "secondbrain"
     weight     = 5
-    identifier = "wiki"
-    url = "http://wiki.tansawit.me"
+    name       = "Brain"
+    url        = "https://notes.tansawit.me/" 
   [[menu.main]]
     name       = "Likes"
     weight     = 6
