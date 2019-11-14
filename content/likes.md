@@ -39,22 +39,3 @@ Here are a few of them:
 - [Biscuit](https://eatbiscuit.com/) - Helps (slightly) improve the incurable Chrome tab situation. Messenger, Slack, Telegram, Discord and other web apps all in one place.
 
 Here's the [full list](https://github.com/tansawit/my-mac-setup) of the apps I use for those interested.
-
-## Quotes
-
-Some of the quotes that I love. Gathered from books, talks, articles.
-
-### Happiness
-
-Most of these came from [Darius Forous](https://dariusforoux.com/). I found him on [Medium](https://medium.com/@dariusforoux) but recently found the articles on [his website](https://dariusforoux.com/blog/). Needless to say, both are incredible.
-
-- "The problem with pursuing happiness is that we’re constantly moving the goalposts for how we expect to feel."
-- "If you live below your potential, give up, and never reach for anything better, you will always be miserable."
-- "But time moves in one direction, and unhappy moments pass."
-- "So instead of chasing happiness, commit to making your world better, more whole."
-- "The problem with pursuing happiness is that we’re constantly moving the goalposts for how we expect to feel."
-- "I believe that happiness is merely a byproduct of usefulness."
- 
-### Tech
-
-- "Technology is an absolute necessity to advance human imagination." - Will Smith in [ interview with MKBHD ](https://www.youtube.com/watch?v=O6NiridP0Oo)

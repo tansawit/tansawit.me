@@ -8,7 +8,7 @@ My projects to date include:
 
 ## CubeSat Engineering Model
 
-As part of Dr Tippawan Wanwiwake's research at the Geo-Informatics and Space Technology and Development Agency ([GISTDA](https://gistda.or.th/main/en)), I took part in assembling and programming an engineering model of a 1U CubeSat to examine the practicality and feasibility of adopting the platform to help in natural disaster tracking, management, and remediation.
+As part of Dr Tippawan Wanwiwake's research at the Geo-Informatics and Space Technology and Development Agency ([GISTDA](https://gistda.or.th/main/en)), I took part in assembling and programming an engineering model of an Arduino-based 1U CubeSat to examine the practicality and feasibility of adopting the platform to help in natural disaster tracking, management, and remediation.
 
 ## Rapper Lyrics Matching Model
 
@@ -17,18 +17,6 @@ Done as the final project for the University of Michigan's EECS486 (Introduction
 The [project](https://github.com/tansawit/rap-artist-classifier) examines the effectiveness of various classification models in matching rap lyrics to the correct artists.
 
 The accompanying [web application](https://github.com/tansawit/rap-match) allows users to input their own lyrics string, choose the classification model to use, and outputs the name of the artist with the closest lyrics features.
-
-
-
-## Data Notebooks
-
-Some of the data visualization/analysis projects I did using various open datasets:
-
-- [Simpsons Guest Stars](https://github.com/tansawit/data-visualization/blob/master/simpsons-guest/simpons_star.ipynb) - Python Jupyter Notebook how to process and analyze rfordatascience' tidytuesday the Simpsons Guest Stars Dataset
-
-## Python Libraries
-
-- [cardvalidate](https://github.com/tansawit/cardvalidate) - A Python package to check credit card issuer and validate card number and CVV using Luhn's algorithm and RegEx. Available on [PyPI](https://pypi.org/project/cardvalidate/)
 
 ## My macOS Workflow
 
