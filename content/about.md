@@ -10,13 +10,13 @@ A recent Computer Science graduate from the University of Michigan now based in 
 
 I also occasionally consult to small and early/seed-stage startups, helping them refine their ideas and product implementations, develop their business models, and improve their understanding of their markets.
 
-In my spare time I like to analyse and visualize [interesting datasets](/projects), watch movies, TV shows, and anime, read books, listen to music and podcasts, and take photos.
+In my spare time I like to develop my knowledge of data science and machine learning, work on my projects, watch movies/TV shows/anime, read books, listen to music or podcasts, play badminton, and take photos.
 
 If you want to know more about me and what I like, you can see what I like [here](/likes) or [ask me anything](https://github.com/tansawit/am)
 
 ### Software Engineering
 
-**Languages**: Python, C, C++, SQL
+**Languages**: Python, SQL, C, C++ 
 
 **Frameworks**: Sciki-learn, Tensorflow, Keras
 
