@@ -14,7 +14,7 @@ I've always liked taking photos when I'm on trips. Recently I've decided to get 
 
 ## Anime
 
-Was really crazy about it in high school and first 2 years of college. I was probably keeping up with 10+ shows every week. But then things get in the way and I kinda have fallen out of it. Mostly. A shame really.
+Was really [crazy about it](https://myanimelist.net/animelist/ValtyreZ?status=2&tag=) in high school and first 2 years of college. I was probably keeping up with 10+ shows every week. But then things get in the way and I kinda have fallen out of it except for 1-2 episodes a week. A shame really.
 
 ## Optimization
 
