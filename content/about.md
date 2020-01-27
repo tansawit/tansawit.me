@@ -4,21 +4,23 @@ date: 2019-09-20T18:24:23+07:00
 draft: false
 ---
 
-## Sawit Trisirisatayawong
+Hi,
 
-A recent Computer Science graduate from the University of Michigan now based in Bangkok, I develop chatbots and customer analytics tools for local businesses to integrate into social media channels to help them acquire customers, engage and retain those customers, and better understand their customer base.
+My name is Sawit and I'm a Software Engineer at Central Technology, a subsidiary of Thailand's Central Group.
 
-I also occasionally consult to small and early/seed-stage startups, helping them refine their ideas and product implementations, develop their business models, and improve their understanding of their markets.
+I'm mainly interested in **Data Science (ML/NLP)**, **Microservices**, **Python**, **Golang**, **Vim**, **Startups**, and **Venture Capital**.
 
-In my spare time I like to develop my knowledge of data science and machine learning, work on my projects, watch movies/TV shows/anime, read books, listen to music or podcasts, play badminton, and take photos.
+In my spare time I like to develop my knowledge of data science and machine learning, work on my projects, watch movies/TV/anime, read books, play badminton, and take photos.
 
-If you want to know more about me and what I like, you can see what I like [here](/likes) or [ask me anything](https://github.com/tansawit/am)
+If you want to know more about me and what I like, you can see what I like [here](/likes) or [ask me anything](https://github.com/tansawit/ama). 
+
+Alternatively, here is a curated list of my [projects](/projects).
 
 ### Software Engineering
 
-**Languages**: Python, SQL, C, C++ 
+**Languages**: Python, Golang, SQL, C, C++ 
 
-**Frameworks**: Sciki-learn, Tensorflow, Keras
+**Tools/Frameworks**: Sciki-learn, Tensorflow, Keras
 
 **Interests**: Natural Language Processing, Object Detection
 
