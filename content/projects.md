@@ -18,7 +18,7 @@ Done as the final project for the University of Michigan's EECS486 (Introduction
 
 The [project](https://github.com/tansawit/rap-artist-classifier) examines the effectiveness of various classification models in matching rap lyrics to the correct artists.
 
-The accompanying [web application](https://github.com/tansawit/rap-match) allows users to input their own text, choose the classification model to use, and outputs the name of the artist with the closest-matching lyrics features.
+The accompanying [web application](https://rap-match.herokuapp.com/) allows users to input their own text, choose the classification model to use, and outputs the name of the artist with the closest-matching lyrics features. The source code for the app can be found on the [GitHub repo](https://github.com/tansawit/rap-match).
 
 ## JARVIS Personal Assistant Chatbot
 
@@ -30,6 +30,10 @@ Current feature set include:
 - Directions
 - World Clock
 - Movies in theaters and showtime
+
+## Tools
+
+- LINE Notify [service](https://github.com/tansawit/aqi-daily-notify), written in Go, to send daily PM 2.5 values at my home, apartment, and office.
 
 ## My macOS Workflow
 

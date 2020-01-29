@@ -4,11 +4,8 @@ author: 'Sawit Trisirisatayawong'
 date: 2019-09-18T21:41:50+07:00
 tags:
   - hugo
-  - tutorial
-  - beginner
 categories:
-  - webdev
-  - tutorial
+  - Web Development
 ---
 ![Person Using MacBook](/images/person-using-macbook.jpg)
 <center>*Photo by Glenn Carstens-Peters on Unsplash*</center>
