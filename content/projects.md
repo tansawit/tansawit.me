@@ -16,7 +16,7 @@ Prior to that, as part of my internship with the agency, I compiled a literature
 
 Done as the final project for the University of Michigan's EECS486 (Introduction to Information Retrieval) class.
 
-The [project](https://github.com/tansawit/rap-artist-classifier) examines the effectiveness of various classification models in matching rap lyrics to the correct artists.
+The [project and resulting paper](https://github.com/tansawit/rap-artist-classifier) examines the effectiveness of various classification models in matching rap lyrics to the correct artists.
 
 The accompanying [web application](https://rap-match.herokuapp.com/) allows users to input their own text, choose the classification model to use, and outputs the name of the artist with the closest-matching lyrics features. The source code for the app can be found on the [GitHub repo](https://github.com/tansawit/rap-match).
 
