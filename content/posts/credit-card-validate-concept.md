@@ -5,8 +5,11 @@ draft: false
 author: Sawit Trisirisatayawong
 tags:
   - regex
+  - payments processing
+  - credit card processing
 categories:
   - Algorithms
+  - Payment
 ---
 
 

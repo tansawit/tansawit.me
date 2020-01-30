@@ -4,13 +4,14 @@ date: 2019-09-20T18:24:23+07:00
 draft: false
 ---
 
-Hi,
+## Hi :(far fa-hand-paper):,
 
-My name is Sawit and I'm a Software Engineer at [Central Technology](htttps://centr.tech), a subsidiary of Thailand's [Central Group](centralgroup.com).
+My name is Sawit. I previously graduated from the University of Michigan with a degree in Computer Science. Now I am a full-time software engineer at [Central Technology](htttps://centr.tech), a subsidiary of Thailand's [Central Group](centralgroup.com).
 
-## Interests and Hobbies
+### Interests and Hobbies
 
 I'm mainly interested in:
+
 - Data Science (ML/NLP)
 - Microservices
 - Python
@@ -25,18 +26,15 @@ If you want to know more about me, you can see what I like [here](/likes) or [as
 
 Alternatively, here is a curated list of my [projects](/projects).
 
-## Skills
+### Skills
 
-**Languages**: Python, Golang, SQL, C, C++ 
+**Programming Languages**: Python, Golang, SQL (MySQL, PostgreSQL), C++ 
 
 **Human Languages**: Thai, English
 
-**Tools/Frameworks**: Sciki-learn, Tensorflow, Keras
+**Tools/Frameworks**: GCP, AWS, MongoDB, Flask, Git, scikit-learn, nltk
 
-**Interests**: Natural Language Processing, Object Detection
-
-
-## Other things I'm doing:
+### Other things I'm doing:
 
 - Writing articles on [this blog](/posts) and on [Medium](https://medium.com/@tansawit)
 - Sharing what I know and things that have influenced me on my [wiki](https://notes.tansawit.me)

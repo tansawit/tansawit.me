@@ -47,32 +47,25 @@ unsafe = true
     identifier = "posts"
     name = "Posts"
     url = "posts"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     identifier = "categories"
     name = "Categories"
     url = "categories"
-    weight = 3
+    weight = 4
 
    [[menu.main]]
     identifier = "projects"
     name = "Projects"
     url = "projects"
-    weight = 4
+    weight = 2
 
    [[menu.main]]
     identifier = "notes"
     name = "Notes"
     url = "notes"
     weight = 5
-
-
-  [[menu.main]]
-    identifier = "main"
-    name = '<i class="fas fa-language fa-fw"></i>'
-    url = "https://tansawit.me"
-    weight = 6
 
 [params]
   version = "5.x"                                        # LoveIt theme version
