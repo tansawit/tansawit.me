@@ -10,7 +10,9 @@ categories:
 
 ## Basics
 
-Before writing the actual functions to execute, we first need to define our program and import the necessary packages
+This piece assumes that you have go installed and working on your computer. If not, please see the Go language's official getting started [guide](https://golang.org/doc/install).
+
+Before writing the actual functions to execute, we first need to define our program and import the necessary packages.
 
 ```go
 package main
@@ -45,14 +47,15 @@ After declaring the packages, we can get to defining and serving our API. Withou
 
 If we implement our handler as a function, we'd use `http.HandleFunc`. Otherwise, if we'd implemented our handler as a type with a `ServeHTTP` method, we'd use `http.Handle`.
 
-For simple implementation like ours, the first option is much easier and clearer to read and understand. But using a struct type allows storing of useful information in it, an example of which is the [file server](https://golang.org/src/net/http/fs.go?s=12662:12702#L418) from the standard library. The struct contains the root directory for file service. See this [Stack Overflow post](https://stackoverflow.com/questions/21957455/difference-between-http-handle-and-http-handlefunc) for a more detailed explanation
+For simple implementation like ours, the first option is much easier and clearer to read and understand. But using a struct type allows storing of useful information in it, an example of which is the [file server](https://golang.org/src/net/http/fs.go?s=12662:12702#L418) from the standard library. The struct contains the root directory for file service. See this [Stack Overflow post](https://stackoverflow.com/questions/21957455/difference-between-http-handle-and-http-handlefunc) for a more detailed explanation.
+
+Let's focus on the first approach for now.
 
 >**Note**: HTTP handlers are processes that runs in response to a request made to a web application. For more information, see its [Wikipedia page](https://en.wikipedia.org/wiki/HTTP_handler)
 
-## Approach 1 (Handler function with http.HandleFunc)
+## Building a Web Server
 
 ```go
-
 func apiResponse(w http.ResponseWriter, r *http.Request) { 
   w.WriteHeader(http.StatusOK)
   w.Header().Set("Content-Type", "application/json")
@@ -78,3 +81,37 @@ The function apiResponse is responsible for writing the response code and JSON. 
 ### main
 
 In our main function, the `HandleFunc` call tells the HTTP package to handle all requests to the web root ("/") with our apiResponse function. It then calls `http.ListenAndServe`, specifying that it should listen on port `8080` on any interface.
+
+If we now run the command `go run .` and navigate to `localhost:8080` on our web browser, we should see something like this.
+
+We can also enter the same URL into our REST Client (i.e. [Postman](https://www.getpostman.com/), [Insomnia](https://www.insomnia.rest), [Paw](https://paw.cloud/)) using the "GET" method to get same result.
+
+![simple api response](/images/simple-rest-api-golang/simple-json-response.png)
+
+## Making it RESTful
+
+Now that our server can return a response, we can configure it to do different things depending on the method being requested.
+
+To do so, we can modify our `apiResponse` function as such:
+
+```go
+func apiResponse(w http.RespoeWriter, r *http.Request) {
+  // Set the return Content-Type as JSON like before
+  w.Header().Set("Content-Type", "application/json")
+
+  // Change the response depending on the method being requested
+  switch r.Method {
+    case "GET":
+      w.WriteHeader(http.StatusOK)
+      w.Write([]byte(`{"message": "GET method requested"}`))
+    case "POST":
+        w.WriteHeader(http.StatusCreated)
+        w.Write([]byte(`{"message": "POST method requested"}`))
+    default:
+        w.WriteHeader(http.StatusNotFound)a
+        w.Write([]byte(`{"message": "Can't find method requested"}`))
+    }
+}
+```
+
+Now if we close the previous version of our server with `ctrl-c` and start it once again, we should get different responses depending on the method we requested from our REST Client.
