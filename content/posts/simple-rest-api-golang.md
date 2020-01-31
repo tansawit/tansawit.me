@@ -45,7 +45,7 @@ The keyword 'import' is used for importing packages into our program or another 
 In our case, both packages comes from the standard library:
 
 - `log` allows us to log errors and other issues.
-- `net/htpp` gives us HTTP client and server implementation for building the actual API
+- `net/http` gives us HTTP client and server implementation for building the actual API
 
 After declaring the packages, we can get to defining and serving our API. Without using third party libraries and routers, there are two main 'approaches' to this. 
 
