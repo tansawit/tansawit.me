@@ -33,7 +33,7 @@ unsafe = true
   priority = 0.5
 
 [Permalinks]                                          #### Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
-  posts = ":year/:month/:filename"
+  posts = "/posts/:title"
 
 [menu]    
 
