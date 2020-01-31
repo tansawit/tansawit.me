@@ -160,6 +160,6 @@ func main() {
 
 ## Closing
 
-This covers the basic of building a REST API server. In later posts I plan on going over the `net/http` library in more detail, as well as using third-party router libraries such as 'gorillia/mux' and 'go-chi/chi' for more complex routings.
+This covers the basic of building a REST API server. In later posts I plan on going over the `net/http` library in more detail, as well as using third-party router libraries such as ['gorillia/mux'](https://github.com/gorilla/mux) and ['go-chi/chi'](https://github.com/go-chi/chi) for more complex routings.
 
 If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/tansawit) or via [email](mailto:sawit.tr@gmail.com)
