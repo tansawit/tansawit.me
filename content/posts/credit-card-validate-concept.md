@@ -7,7 +7,6 @@ tags:
   - payments
   - credit card processing
 categories:
-  - RegEx
   - Algorithms
 ---
 
