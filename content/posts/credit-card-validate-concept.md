@@ -4,12 +4,11 @@ date: 2019-09-21T15:26:23+07:00
 draft: false
 author: Sawit Trisirisatayawong
 tags:
-  - regex
-  - payments processing
+  - payments
   - credit card processing
 categories:
+  - RegEx
   - Algorithms
-  - Payment
 ---
 
 

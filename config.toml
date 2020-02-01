@@ -76,7 +76,7 @@ unsafe = true
   home_mode = "post"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
   avatar = "images/avatar.png"                           # URL of avatar shown in home page
-  subtitle = "Full Stack Developer. Data Science & NLP Enthusiast."  # subtitle shown in home page
+  subtitle = "Software Enginer. Interested in Backend/NLP/Info Retrieval/Dev Tools/Startups."
 
   socialShare = true                                     # whether to show social share links in post page
 

@@ -13,12 +13,13 @@ My name is Sawit. I previously graduated from the University of Michigan with a 
 I'm mainly interested in:
 
 - Data Science (ML/NLP)
-- Microservices
+- Information Retrieval
+- Backend and Microservices
+- Go
 - Python
-- Golang
-- Vim
-- Startups
-- Venture Capital
+- Developer Tools
+- Startups and Venture Capital
+- Photography and Cinematoraphy
 
 In my spare time I like to learn new things, watch movies/TV/anime, read books, play badminton, and take photos.
 
