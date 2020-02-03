@@ -61,6 +61,11 @@ unsafe = true
     url = "projects"
     weight = 4
 
+   [[menu.main]]
+    identifier "resume"
+    name = "Resume"
+    url="/sawit-trisirisatayawong-resume.pdf"
+    weight = 5
 
 [params]
   version = "5.x"                                        # LoveIt theme version
