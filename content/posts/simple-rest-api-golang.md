@@ -49,7 +49,7 @@ In our case, both packages comes from the standard library:
 - `log` allows us to log errors and other issues.
 - `net/http` gives us HTTP client and server implementation for building the actual API
 
-After declaring the packages, we can get to defining and serving our API. Without using third party libraries and routers, there are two main 'approaches' to this. 
+After declaring the packages, we can begin defining and serving our API. Without using third party libraries and routers, there are two main 'approaches' to this. 
 
 If we implement our handler as a function, we'd use `http.HandleFunc`. Otherwise, if we'd implemented our handler as a type with a `ServeHTTP` method, we'd use `http.Handle`.
 
@@ -64,7 +64,7 @@ As our program is rather simple and straightforward, we'll stick to the first ap
 Now we get to defining how our API server will actually behave, and the content we're going to send as our response. Add the following lines below our imports and package declarations:
 
 ```go
-func apiResponse(w http.ResponseWriter, r *http.Request) { 
+func apiResponse(w http.ResponseWriter, r *http.Request) {
   w.WriteHeader(http.StatusOK)
   w.Header().Set("Content-Type", "application/json")
   w.Write([]byte(`{"message":"hello world!"}`))
@@ -82,7 +82,7 @@ Again, let's run through each function.
 
 The function apiResponse is responsible for writing the response code and JSON. The function itself takes two arguments: `w` of type `http.ResponseWriter` assembles our HTTP server's responses, while `r` reads and parse the requests. Now to go through each line of the function:
 
-- `w.WriteHeaer(http.StatusOK)` writes the HTTP [response code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) 200, indicating that the requested resource (the JSON response in our case) has been successfully fetched and is transmitted in the message body.
+- `w.WriteHeader(http.StatusOK)` writes the HTTP [response code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) 200, indicating that the requested resource (the JSON response in our case) has been successfully fetched and is transmitted in the message body.
 - `w.Header().Set("Content-Type", "application/json")` indicates the return type of the requested resource.
 - `w.Write([]byte('{"message":"hello world!"}'))` finally writes our response in the message body.
 
@@ -94,7 +94,7 @@ In our main function, the `HandleFunc` call tells the HTTP package to handle all
 
 If we now run the command `go run .` and navigate to `localhost:8080` on our web browser, we should see something like this.
 
-We can also enter the same URL into our REST Client (i.e. [Postman](https://www.getpostman.com/), [Insomnia](https://www.insomnia.rest), [Paw](https://paw.cloud/)) using the "GET" method to get same result.
+We can also enter the same URL into our REST Client (i.e. [Postman](https://www.getpostman.com/), [Insomnia](https://www.insomnia.rest), [Paw](https://paw.cloud/)) using the "GET" method to get the same result.
 
 ![simple api response](/images/simple-rest-api-golang/simple-json-response.png)
 
@@ -105,7 +105,7 @@ Now that our server can return a response, we can configure it to do different t
 To do so, we can modify our `apiResponse` function as such:
 
 ```go
-func apiResponse(w http.RespoeWriter, r *http.Request) {
+func apiResponse(w http.ResponseWriter, r *http.Request) {
   // Set the return Content-Type as JSON like before
   w.Header().Set("Content-Type", "application/json")
 
@@ -118,7 +118,7 @@ func apiResponse(w http.RespoeWriter, r *http.Request) {
         w.WriteHeader(http.StatusCreated)
         w.Write([]byte(`{"message": "POST method requested"}`))
     default:
-        w.WriteHeader(http.StatusNotFound)a
+        w.WriteHeader(http.StatusNotFound)
         w.Write([]byte(`{"message": "Can't find method requested"}`))
     }
 }
@@ -136,7 +136,7 @@ import (
     "net/http"
 )
 
-func apiResponse(w http.RespoeWriter, r *http.Request) {
+func apiResponse(w http.ResponseWriter, r *http.Request) {
   // Set the return Content-Type as JSON like before
   w.Header().Set("Content-Type", "application/json")
 
