@@ -1,7 +1,7 @@
 ---
 title: "Book Review - Anything You Want by Derek Sivers"
-date: 2020-02-01T12:10:00+07:00
-draft: true
+date: 2020-02-07T12:10:00+07:00
+draft: false
 categories:
 - Book Reviews
 tags:
