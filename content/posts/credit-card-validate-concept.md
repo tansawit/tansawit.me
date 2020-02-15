@@ -1,8 +1,11 @@
 ---
-title: "How to Validate Credit Card Numbers using Luhn's Algorithm"
+author: "Sawit Trisirisatayawong"
+author_link: "https://tansawit.me"
+title: "Validating Credit Card Numbers using Luhn's Algorithm"
 date: 2019-09-21T15:26:23+07:00
 draft: false
-author: Sawit Trisirisatayawong
+description: Luhn's Algorithm
+featured_image: /images/creditcards.jpg
 tags:
   - payments
   - credit card processing
@@ -10,6 +13,9 @@ categories:
   - Algorithms
 ---
 
+So that's what those numbers meant...
+
+<!--more-->
 
 Ever looked at a credit card and wonder if the numbers on it means anything? Turns out those number are not entirely random, and instead follow a set of regular patterns. These patterns in turn allow merchants and others to not only validate the authenticity of the card, but also find other useful information about it. Here’s how they are generated.
 

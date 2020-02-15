@@ -1,14 +1,21 @@
 ---
+author: "Sawit Trisirisatayawong"
+author_link: "https://tansawit.me"
 title: "Building a Simple Rest API with Go"
 date: 2020-01-30T15:39:38+07:00
-tags:
-  - api
+draft: false
 categories:
   - Web Development
   - Go
+tags:
+  - api
+show_in_homepage: true
+featured_image: /images/simple-rest-api-golang/simple-rest-api-golang-header.jpg
 ---
 
-![Post Header](/images/simple-rest-api-golang/simple-rest-api-golang-header.jpg)
+An introduction using Go's net/http package.
+
+<!--more-->
 
 After recently joining [Central Tech](https://central.tech), I was given my first project: implement a new product creation and querying API in Go. I took this as a chance for me to finally dive deep into Go, something I've been wanted to do after having heard praises about it from many others. I also decided to start detailing the things I learned along the way, both for personal reference and to ensure that I understand concepts enough to explain it in writing. 
 
