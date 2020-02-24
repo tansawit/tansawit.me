@@ -105,9 +105,9 @@ dateFormatToUse = "2006-01-02"
   # LoveIt theme version
   version = "0.1.X"
   # site description
-  description = "About LoveIt Theme"
+  description = "My personal website"
   # site keywords
-  keywords = ["Theme", "Hugo"]
+  keywords = ["software", "engineer","developer","personal","website","portfolio","projects"]
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
 
