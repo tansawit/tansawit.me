@@ -16,7 +16,7 @@ paginate = 12
 # whether to use emoji code
 enableEmoji = true
 # whether to use robots.txt
-enableRobotsTXT = true
+enableRobotsTXT = false
 # [UA-XXXXXXXX-X] google analytics code
 googleAnalytics = "UA-148434389-1"
 # copyright description used only for seo schema
