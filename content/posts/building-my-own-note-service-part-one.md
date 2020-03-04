@@ -4,7 +4,7 @@ author_link: "https://tansawit.me"
 title: "Building My Own Information Storage and Retrieval Service: Idea and Designing the Service"
 date: 2020-03-03T15:10:55+07:00
 draft: true
-description: "One search tool to rule them all. Because looking in multiple places takes too much energy..."
+description: "One service to rule them all. Because looking in multiple places takes too much energy..."
 
 description_as_summary: true
 show_in_homepage: true

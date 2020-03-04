@@ -5,6 +5,9 @@ title: "My Favorite Tools and Apps"
 date: 2020-03-03T15:10:55+07:00
 draft: false
 description: "Optimizing for speed, ease...and laziness."
+categories:
+  - tools
+  - productivity
 
 description_as_summary: true
 show_in_homepage: true
