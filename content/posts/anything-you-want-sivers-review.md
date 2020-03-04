@@ -26,11 +26,11 @@ takeaways.
 
 > Never forget why you're doing what you're doing. Are you helping people? Are they happy? Are you happy? Are you profitable? Isn't that enough?
 
-Derek Siver, in his own words, have been "a musician, producer, circus performer, entrepreneur, TED speaker, and book publisher". He started CDBaby, a company in which he later sold for $22 million. In this book he details his experience creating the business, running it, as well as all of the associated ups, downs, and lessons that comes with it. The book touches on the mindset when it comes to working and running a business, coming up with an idea, things to consider when managing one, and so many more advices.
+Derek Siver, in his own words, has been "a musician, producer, circus performer, entrepreneur, TED speaker, and book publisher". He started CDBaby, a company in which he later sold for $22 million. In this book, he details his experience creating the business, running it, as well as all of the associated ups, downs, and lessons that come with it. The book touches on the mindset when it comes to working and running a business, coming up with an idea, things to consider when managing one, and so many more advices.
 
 For me, as someone who’s recently started their career and started to feel the urge to always be working, this book has really helped reconsider and reframe the way I approach what I do and my mindset towards working in general. The way Sivers emphasize on having the correct mindset, to **start now and start small**, to not cater to everyone and **proudly exclude people**, and especially the quote above really resonated with me.
 
-His advice on ideas are also equally helpful. Some of the ones I really value
+His advices on ideas are is equally helpful. Some of the ones I really value
 are:
 
 - No business goes as planned, so make ten radically different plans
@@ -51,7 +51,7 @@ Finally here are some of my favorite quotes from the book:
 
 ## Wrapping Up
 
-Overall, I couldn't pick much of a better book. Through conveying his
-own journey and failures in a short 1-2 hour read, all always candid, his words has left me with things
+Overall, I couldn't pick much of a better book. By conveying his
+own journey and failures in a short 1-2 hours read, all always candid, his words has left me with things
 that I will probably think about for much longer into the future.
 
