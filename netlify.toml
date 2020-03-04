@@ -1,6 +1,8 @@
 [build]
-publish = "public"
-command = "hugo"
+  command = "hugo --gc --minify -b $URL"
+  # base    = "./"
+  publish = "public"
 
 [context.production.environment]
-HUGO_VERSION = "0.64.1"
+  HUGO_VERSION = "0.64.1"
+  HUGO_ENV = "production"
