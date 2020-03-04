@@ -11,6 +11,8 @@ categories:
 
 description_as_summary: true
 show_in_homepage: true
+images:
+- images/favorite-tools-apps/featured.jpg
 featured_image: /images/favorite-tools-apps/featured.jpg
 ---
 

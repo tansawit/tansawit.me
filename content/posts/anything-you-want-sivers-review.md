@@ -12,6 +12,8 @@ tags:
 description: "Getting back to reading."
 show_in_homepage: true
 description_as_summary: true
+images:
+ - /images/anything-you-want-sivers/anything-you-want-featurepng
 featured_image: /images/anything-you-want-sivers/anything-you-want-feature.png
 ---
 
