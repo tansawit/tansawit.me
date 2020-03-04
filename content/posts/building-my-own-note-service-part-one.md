@@ -9,6 +9,8 @@ description: "One service to rule them all. Because looking in multiple places t
 description_as_summary: true
 show_in_homepage: true
 featured_image: /images/building-my-own-note-storage-part-one/note.jpg
+images: 
+- /images/building-my-own-note-storage-part-one/note.jpg
 ---
 
 There's two feelings I hate most when it comes to knowledge and information: 

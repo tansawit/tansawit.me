@@ -13,6 +13,8 @@ description: "Getting back to reading."
 show_in_homepage: true
 description_as_summary: true
 featured_image: /images/anything-you-want-sivers/anything-you-want-feature.png
+images:
+- /images/anything-you-want-sivers/anything-you-want-feature.png
 ---
 
 Late last year I had the sudden urge to start reading again. Like. Read actual books with actual pages. While, like many, I'm always on my phone reading random stuff from equally random places, I couldn't remember the last time I actually finished a proper book. 

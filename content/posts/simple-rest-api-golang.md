@@ -11,6 +11,8 @@ tags:
   - api
 show_in_homepage: true
 featured_image: /images/simple-rest-api-golang/simple-rest-api-golang-header.jpg
+images:
+- /images/simple-rest-api-golang/simple-rest-api-golang-header.jpg
 ---
 
 An introduction using Go's net/http package.

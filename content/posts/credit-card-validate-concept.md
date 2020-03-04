@@ -5,12 +5,15 @@ title: "Validating Credit Card Numbers using Luhn's Algorithm"
 date: 2019-09-21T15:26:23+07:00
 draft: false
 description: Luhn's Algorithm
-featured_image: /images/creditcards.jpg
 tags:
   - payments
   - credit card processing
 categories:
   - Algorithms
+
+featured_image: /images/creditcards.jpg
+images:
+- /images/creditcards.jpg
 ---
 
 So that's what those numbers meant...
