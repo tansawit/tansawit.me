@@ -129,6 +129,7 @@ dateFormatToUse = "2006-01-02"
 
   # whether to show social share links in post page
   socialShare = true
+  images= ["/images/site-feature.jpg"]
 
   # Footer CopyRight Info
   ## Site creation time
