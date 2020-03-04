@@ -12,9 +12,8 @@ categories:
 description_as_summary: true
 show_in_homepage: true
 featured_image: /images/favorite-tools-apps/featured.jpg
-twitter:
-- card: "summary_large_image"
-- image: "https://i.ibb.co/WzjdJm2/featured.jpg"
+images:
+- "https://i.ibb.co/WzjdJm2/featured.jpg"
 ---
 
 I use [a lot of tools and apps](https://github.com/tansawit/my-mac-setup) on a daily basis, both for work and other computer-related tasks. Some of them are pretty standard (Xcode, Chrome, Sketch, Dropbox, etc.), others are personal preferences ([NeoVim](https://neovim.io/), [tmux](https://github.com/tmux/tmux)), and others just seems cool and useful to me. In this post, I wanted to highlight a few in particular that really had an impact on my workflow and/or those that I feel like others may not have heard about. 
