@@ -294,10 +294,10 @@ dateFormatToUse = "2006-01-02"
     width = 800
     height = 600
 
-  # Disqus Comment Config (https://disqus.com/)
-  [params.disqus]
-    # Disqus shortname to use Disqus in posts
-    shortname = "dillonzq"
+  # # Disqus Comment Config (https://disqus.com/)
+  # [params.disqus]
+  #   # Disqus shortname to use Disqus in posts
+  #   shortname = "dillonzq"
 
   # Gittalk Comment Config (https://github.com/gitalk/gitalk)
   [params.gitalk]
