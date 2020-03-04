@@ -90,16 +90,22 @@ dateFormatToUse = "2006-01-02"
     weight = 3
 
   [[menu.main]]
+    identifier = "journal"
+    name = "Journal"
+    url = "journal"
+    weight = 4
+    
+  [[menu.main]]
     identifier = "lists"
     name = "Lists"
     url = "lists"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
     identifier = "resume"
     name = "Resume"
     url = "sawit-trisirisatayawong-resume.pdf"
-    weight = 5
+    weight = 6
 
 [params]
   # LoveIt theme version
@@ -259,7 +265,7 @@ dateFormatToUse = "2006-01-02"
     Twitter = true
     Facebook = true
     Reddit = true
-    #Linkedin = true
+    Linkedin = true
     #Pinterest = true
     #HackerNews = true
     #Mix = true
