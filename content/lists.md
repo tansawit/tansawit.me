@@ -10,11 +10,11 @@ Some applications and utilities that I use that others might find useful.
 
 ### [Dash](https://kapeli.com/dash)
 
-API Documentation browser for Mac. After combining it with the [Alfred workflow](https://github.com/Kapeli/Dash-Alfred-Workflow) and [Karabiner](https://pqrs.org/osx/karabiner/), it has been indispensible for me when looking up language libraries/functions and other things.
+API Documentation browser for Mac. After combining it with [Alfred](https://www.alfredapp.com/), the [Dash Alfred workflow](https://github.com/Kapeli/Dash-Alfred-Workflow) and [Karabiner](https://pqrs.org/osx/karabiner/), it has been indispensable for me when looking up language libraries/functions and other things.
 
 Demo:
 
-{{<youtube qYjgvHHPOlA>}}
+{{<youtube dtvA35W1BvM>}}
 
 ### [Sip](https://sipapp.io/)
 
