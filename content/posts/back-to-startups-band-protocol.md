@@ -1,18 +1,16 @@
 ---
 author: "Sawit Trisirisatayawong"
 author_link: "https://tansawit.me"
-title: "Something New. Something Different."
-date: 2020-03-09T06:12:22+07:00
+title: "Something New. Something Different"
+date: 2020-03-09T06:23:06+07:00
 draft: false
-description: "Back to startups. Now with 100% more blockchain."
 categories:
-  - Life Events
-  - Careers
-tags:
-  - startups
-description_as_summary: true
+- Careers
+- Life Events
+description: "Back to startups. Now with 100% more blockchain."
 show_in_homepage: true
-featured_image: /images/back-to-startups-band-protocol/featured3.jpg
+description_as_summary: true
+featured_image: /images/back-to-startups-band-protocol/featured.jpg
 images:
 - /images/back-to-startups-band-protocol/featured.jpg
 ---
