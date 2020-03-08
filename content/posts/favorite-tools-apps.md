@@ -3,7 +3,7 @@ author: "Sawit Trisirisatayawong"
 author_link: "https://tansawit.me"
 title: "My Favorite Tools and Apps"
 date: 2020-03-07T09:53:16+07:00
-draft: false
+draft: true
 description: "Optimizing for speed, productivity...and laziness."
 categories:
   - tools
