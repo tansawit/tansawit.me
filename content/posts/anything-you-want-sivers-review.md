@@ -5,8 +5,9 @@ title: "Book Review - Anything You Want by Derek Sivers"
 date: 2020-02-07T12:10:00+07:00
 draft: false
 categories:
-- Book Reviews
+- books
 tags:
+- book review
 - mindset
 - business
 description: "Getting back to reading."

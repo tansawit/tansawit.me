@@ -5,10 +5,11 @@ title: "Building a Simple Rest API with Go"
 date: 2020-01-30T15:39:38+07:00
 draft: false
 categories:
-  - Web Development
-  - Go
+- tutorial
+- web development
 tags:
   - api
+  - go
 show_in_homepage: true
 featured_image: /images/simple-rest-api-golang/simple-rest-api-golang-header.jpg
 images:

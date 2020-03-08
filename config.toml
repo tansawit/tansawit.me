@@ -125,7 +125,7 @@ dateFormatToUse = "2006-01-02"
   ## URL of avatar shown in home page
   avatar = "images/avatar.png"
   ## subtitle shown in home page
-  subtitle = "Software Engineer. Interested in Backend/NLP/Info Retrieval/Dev Tools/Startup."
+  subtitle = "Software Engineer. Interested in Backend/Search and Info Retrieval/Startups."
 
   # whether to show social share links in post page
   socialShare = true

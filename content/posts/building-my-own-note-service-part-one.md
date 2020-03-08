@@ -1,11 +1,16 @@
 ---
 author: "Sawit Trisirisatayawong"
 author_link: "https://tansawit.me"
-title: "Building My Own Information Storage and Retrieval Service: Idea and Designing the Service"
+title: "NoteLog: Building A Personal Information Storage and Retrieval Service - Idea and Design"
 date: 2020-03-03T15:10:55+07:00
 draft: true
-description: "One service to rule them all. Because looking in multiple places takes too much energy..."
-
+description: "A single search tool to rule them all"
+categories:
+- projects
+- elastic
+tags:
+- go
+- elasticsearch
 description_as_summary: true
 show_in_homepage: true
 featured_image: /images/building-my-own-note-storage-part-one/note.jpg
@@ -13,87 +18,44 @@ images:
 - /images/building-my-own-note-storage-part-one/note.jpg
 ---
 
-There's two feelings I hate most when it comes to knowledge and information: 
+## Introduction and the Problem
 
-1. Knowing you've seen/heard of/read something but not being able to remember the details and
-2. Not knowing where you saved something important. 
+I've found myself relying on an increasing number of services to store the information I want to reference later (article with [Pocket](https://app.getpocket.com/), repositories with [GitHub](https://github.com/), notes with [Bear](https://bear.app/) or [my wiki](https://notes.tansawit.me)). While this is normally fine, it means that whenever I want to look up something, I need to spend time actually thinking about *where* to search before actually thinking about *what* to search for. That time, I believe, can be minimized.
 
-In an effort to solve those two issues, I have previously built a few tools for myself, but none scratch that itch well enough yet:
+What's more, many of these services I use also searches on a somewhat 'surface-level' (only searching for title of websites and not the actual content). To me, this greatly limits the future discoverability of the item. Finally, there is no way of searching through all these services at the same time, using the same query. This makes cross-referencing quite a bit more difficult. For example, if I want to search for the info I've saved from a topic expert (let's say across their blogs, repos, and tweets), I would have to do 3 separate searches and somehow merge them myself, either manually or mentally. What I roughly envision is a service that allows me to search for their name, along with a topic keyword, and getting all the relevant information, across multiple sources, in a single results field.
 
-[**notes.tansawit.me**](https://notes.tansawit.me) 
+## Previous Attempts and Current Solution
 
-My first attempt at a solution. Implementation-wise it's just a Hugo static site built using Alex Shpak's [hugo-book theme](https://github.com/alex-shpak/hugo-book).
+In order to solve this issue, I have tried various tools and apps that are available. Out of all of them, [Alfred](https://www.alfredapp.com/) probably got the closest to being what I want, especially by utilizing its [workflows](https://www.alfredapp.com/workflows/) feature. But searching multiple places still requires multiple calls to different workflows. Again, this makes cross-referencing a manual and time-consuming effort.
 
-The website and theme by nature is pretty decent at categorising information. All notes are Markdown files structured into folders by section, topic, sub-topic etc. This is great when it comes to seeing all the things I know on a single topic. However, I've found myself spending more time sorting the notes into an increasingly more nested folder structure than actually writing them. Along with that, while there is search, the default only searches off the document titles.
+## Proposed Solution
 
-[**search.tansawit.me**](http://search.tansawit.me)
+Now onto the solution I plan to build. The service I've planned consists of three main parts:
 
-This iteration is the complete opposite of the previous attempt in that it was built completely from scratch using a combination of ElasticSearch, Golang API backend, and React frontend. By using ElasticSearch and personally configuring exactly the information to index along with specifying the query parameters, I managed to somewhat solve the previous issue of search granularity. But, at least to the extent that I've taken it, there still remain some issues and potential improvements
+- Data aggregator/loader
+- Search service/API
+- Frontent clients
 
-- Notes are all stored as plaintext. This means links within notes are not possible.
-- No easy way to share the retrieved notes by individual links
-- The implementation was focused on primarily focused on solving the issue of the previous attempt. Thus the ease of adding new data sources was not considered.
+Let's expand more on each of these:
 
-**publicly available solutions**
+### Data Aggregator
 
-Some of the pre-made solutions also got pretty close, but doesn't still lacks in some areas. To that point, [Alfred](https://www.alfredapp.com/) probably got the closest to being what I want, especially when combined with its [workflows](https://www.alfredapp.com/workflows/) feature. I will most likely end up building my own workflow on top of it, making it one of the clients for the service. But as it stands, I still require multiple workflows to achieve the functionality I need.
+This will be a cron service running tasks that routinely pulls and update data from various places. In the initial proof-of-concept stage, I will be using data from two sources:
 
-My ideal solution would have the following features:
+- GitHub: using the [GitHub API](https://developer.github.com/v3/)
+- My Blog: through web scraping using a combination of [colly](https://github.com/gocolly/colly) and [goquery](https://github.com/PuerkitoBio/goquery)
 
-- Aggregate data from all the sources I care about (more on this later) 
-- Full-text search across all text components
-- Easy retrieval for sharing/local downloads for notes
+These information will then be fed into my [Elastic Cloud](https://www.elastic.co/cloud/) instance to be indexed by [Elasticsearch](https://www.elastic.co/).
 
-For all of this, I hope to be able to search through all of the aggregated items in a single place (a la Google Search/URL bar, Alfred, Mac Spotlight)
+### Search Service and API
 
-## The Design
+This module will act as the intermediary between whatever contexts the service will be used (web, apps, Alfred workflows, etc.) and the Elasticsearch indices. It will be responsible for transforming the query as necessary, performing the search, and retrieving the results from Elastic.
 
-I plan on building services to pull data from various sources and store them in Elasticsearch indices. Each of them will run on [cron schedules](https://en.wikipedia.org/wiki/Cron) to keep the information updated without me having to explicitly check. 
+Although I could have simply used [Elastic's own API](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html), which will probably make building my frontend [easier](https://github.com/appbaseio/reactivesearch), I decided to build my own for two reasons:
 
-Then, from the client side, any search queries coming in will be passed through a backend API service, responsible for any query manipulation/transformation, before being subsequently passed on to the Elasticsearch module for full-text/fuzzy searching. The query results will then again be transformed as needed by the backend service, before being forwarded to the client. 
+- Granular Control: By having my own API in the middle, I can control specifically how data is being routed, the how the input/output is formatted, and so on. I also can specify the format the API routes myself, hopefully making it easier to integrate with the frontend applications.
+- Abstraction and maintainability: As the service itself will hopefully be used from various mediums and contexts, having to handle request manipulation and transformation at the frontend will get messy fast. Instead, by abstracting away all that work behind my API, it will make building a new clients much easier, not to mention helping with the ease of implementing future fixes, changes, and features across all services.
 
-The diagram below illustrates the general flow of data and queries:
+### Frontend Clients
 
-![Data/Query Pipeline](/images/building-my-own-note-storage-part-one/data-feed.png)
-
-### Sources
-
-For the first iteration, I'll be pulling information from the following two places:
-
-#### Blog Posts
-
-For quick references and sending links to others.
-
-**Implementation**
-
-For this I used a combination of the [colly](https://github.com/gocolly/colly) scraper and [goquery](https://github.com/PuerkitoBio/goquery) libraries. I started by using colly's `Collector` to collect all the posts listed on my website's [posts page](https://tansawit.me/posts). Then for each of those posts I use goquery's `Find` function to find and extract the information I want into a custom Post struct. As of the time of writing, these info are:
-
-- Title
-- Date
-- Categories
-- Tags
-- Text Content
-- URL of Post
-
-#### GitHub
-
-I wanted something similar to Lachlan Donald's [alfred-github-jump workflow](https://github.com/lox/alfred-github-jump), where I can search for both my own repositories as well as those that I've starred
-
-**Implementation**
-
-My implementation is simply based off Lachlan's [repos.go](https://github.com/lox/alfred-github-jump/blob/master/repos.go) functions for retrieving the repos from the two places.
-
-### Database
-
-#### Elasticsearch
-
-While there are interesting alternatives to Elastic to supply the full-text search capability such as [Algolia](https://www.algolia.com/), which even claimed to be the [superior option](https://blog.algolia.com/full-text-search-in-your-database-algolia-versus-elasticsearch/), there are certain issues that I have with it:
-
-- The need to display the Algolia logo when using a free tier. With some of the mediums I plan on using this service through, that might just not be possible. Plus, I prefer to keep the UI as clean as possible.
-- Customization/Configuration constraint. Elastic, despite, or perhaps due to, its complex Domain Specific Language, allow for more fine-grained control over how I want my search service to work. It also allow for better future extensibility of the two.
-
-Having used ElasticSearch in previous projects, I'm also more comfortable with how the technology works and how to achieve the search system I want from it. Lastly, I'm personally interested in learning more about the Elastic Stack, so this will be a good chance to gain more experience with it. So I'll stick with it for now and will see how it goes in the long run.
-
-
-## Conclusion and Next Steps
-
+Now comes the part that I'm still the most unclear on.

@@ -12,7 +12,9 @@ I assisted assembling and programming an engineering model of an Arduino-based 1
 
 Prior to that, during my internship with the agency, I compiled a literature review examining the practicality and feasibility of adopting the platform for use in Thailand.
 
-## Rapper Lyrics Matching Model
+## Rapper Lyrics Matching Model [:(fab fa-github):](https://github.com/tansawit/rap-artist-classifier) [:(fas fa-globe):](rap-match.herokuapp.com)
+
+
 
 The [project and resulting paper](https://github.com/tansawit/rap-artist-classifier) examines the effectiveness of various classification models in matching rap lyrics to the correct artists.
 
@@ -22,11 +24,16 @@ The source code for the app can be found on the [GitHub repo](https://github.com
 
 This project was done as the final project for the University of Michigan's EECS486 (Introduction to Information Retrieval) class.
 
-## Notes-Search
+## NoteLog [:(fab fa-github):](https://github.com/NoteLog)
 
-A web app to search through all of my notes on various topics. Built using ElasticSearch, Go, React, and Docker.
+*Work In Progress*
 
-Current (work-in-progress) version is hosted at [search.tansawit.me](http://search.tansawit.me) while the source code and more information can be found on its [GitHub repo](https://github.com/tansawit/notes-search).
+Technology Stack: Go, Elasticsearch/Elastic Cloud, React, Google Cloud Run, Docker
+
+A service to store and search through all of the things I want to reference in one place. Currently implemented to search through:
+
+- My GitHub repositories and those that I've starred
+- My blog posts on this site
 
 ## JARVIS Personal Assistant Chatbot
 
