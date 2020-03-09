@@ -1,7 +1,7 @@
 ---
 author: "Sawit Trisirisatayawong"
 author_link: "https://tansawit.me"
-title: "Something New. Something Different"
+title: "Something New. Something Different."
 date: 2020-03-09T06:23:06+07:00
 draft: false
 categories:
