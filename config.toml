@@ -125,7 +125,7 @@ dateFormatToUse = "2006-01-02"
   ## URL of avatar shown in home page
   avatar = "images/avatar.png"
   ## subtitle shown in home page
-  subtitle = "Software Engineer. Interested in Backend/Search and Info Retrieval/Startups."
+  subtitle = "Software Engineer. Interested in Backend and APIs/Information Retrieval/Startups and Venture Capital."
 
   # whether to show social share links in post page
   socialShare = true
@@ -255,7 +255,7 @@ dateFormatToUse = "2006-01-02"
     #Mastodon = "xxxx"
     #MastodonPrefix = "https://mastodon.technology/"
     #Thingiverse = "xxxx"
-    #Devto = "xxxx"
+    #Devto = "tansawit"
     #Gitea = "xxxx"
     #XMPP = "xxxx"
     #Matrix ="xxxx"
