@@ -10,9 +10,9 @@ categories:
 description: "Back to startups. Now with 100% more blockchain."
 show_in_homepage: true
 description_as_summary: true
-featured_image: /images/back-to-startups-band-protocol/start-band-protocol-featured.jpg
+featured_image: images/back-to-startups-band-protocol/start-band-protocol-featured.jpg
 images:
-- /images/back-to-startups-band-protocol/start-band-protocol-featured.jpg
+- images/back-to-startups-band-protocol/start-band-protocol-featured.jpg
 ---
 
 I'm thrilled to announce that I'll be joining [Band Protocol](https://bandprotocol.com/) as a Software Engineer at the end of March 2020. I am beyond excited to be part of an amazing team. I look forward to developing my skills as an engineer in such a fast-paced, active, and rigorous environment. This will also be a great opportunity for me to work at the intersection of the various fields I'm interested in: business, finance, economics, and technology. Finally, I can't wait to explore and learn about the blockchain and cryptocurrency space in more detail than ever before, taking the concepts I learned in college and building something from it. 
